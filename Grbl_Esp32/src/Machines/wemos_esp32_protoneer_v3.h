@@ -50,6 +50,13 @@
 
 #define SPINDLE_ENABLE_PIN    GPIO_NUM_19    // Uno D12 (Spindle Enable)
 
+// SD Card SPI pins (add these if you want an SD on SPI)
+// Chosen free pins: SCK=GPIO22, MOSI=GPIO21, MISO=GPIO34 (input-only), CS=GPIO33
+#define SD_SPI_SCK_PIN     GPIO_NUM_22
+#define SD_SPI_MOSI_PIN    GPIO_NUM_21
+#define SD_SPI_MISO_PIN    GPIO_NUM_34  // input-only is OK for MISO
+#define SD_CARD_CS_PIN     GPIO_NUM_33
+
 
 //#define SPINDLE_PWM_CHANNEL 0
 // PWM Generator is based on 80,000,000 Hz counter
