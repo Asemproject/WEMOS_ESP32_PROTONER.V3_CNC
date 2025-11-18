@@ -41,7 +41,7 @@
 // OK to comment out to use pin for other features
 // NOTE: GPIO12 is a strapping pin on some modules and can cause boot issues.
 // Moved to GPIO32 to avoid bootstrap problems on many ESP32 modules.
-#define STEPPERS_DISABLE_PIN GPIO_NUM_32	// was GPIO_NUM_12 (Uno D8)
+#define STEPPERS_DISABLE_PIN GPIO_NUM_12	// was GPIO_NUM_12 (Uno D8)
 
 #define X_LIMIT_PIN      		GPIO_NUM_13  // Uno D9
 #define Y_LIMIT_PIN      		GPIO_NUM_5   // Uno D10
