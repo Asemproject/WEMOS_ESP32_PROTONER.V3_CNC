@@ -13,38 +13,37 @@
 
 #define MACHINE_NAME "WEMOS_ESP32_PROTONEER_V3"
 
-#define X_STEP_PIN      		GPIO_NUM_26
-#define X_DIRECTION_PIN  		GPIO_NUM_16
+#define X_STEP_PIN      		GPIO_NUM_12
+#define X_DIRECTION_PIN  		GPIO_NUM_14
 #define X_RMT_CHANNEL			0
 
-#define Y_STEP_PIN      		GPIO_NUM_25
-#define Y_DIRECTION_PIN   	    GPIO_NUM_27
+#define Y_STEP_PIN      		GPIO_NUM_26
+#define Y_DIRECTION_PIN   	    GPIO_NUM_15
 #define Y_RMT_CHANNEL			1
 
-#define Z_STEP_PIN      		GPIO_NUM_17
-#define Z_DIRECTION_PIN   	    GPIO_NUM_14
+#define Z_STEP_PIN      		GPIO_NUM_27
+#define Z_DIRECTION_PIN   	    GPIO_NUM_33
 #define Z_RMT_CHANNEL			2		
 
-#define STEPPERS_DISABLE_PIN GPIO_NUM_12
+#define STEPPERS_DISABLE_PIN GPIO_NUM_13
 
-#define X_LIMIT_PIN      		GPIO_NUM_13
-#define Y_LIMIT_PIN      		GPIO_NUM_5
-#define Z_LIMIT_PIN     		GPIO_NUM_23
+#define X_LIMIT_PIN      		GPIO_NUM_17
+#define Y_LIMIT_PIN      		GPIO_NUM_4
+#define Z_LIMIT_PIN     		GPIO_NUM_16
 #define LIMIT_MASK      		0b111
 
-#define PROBE_PIN       		GPIO_NUM_39
+#define PROBE_PIN       		GPIO_NUM_32
 
-#define SPINDLE_ENABLE_PIN    GPIO_NUM_19
+#define SPINDLE_ENABLE_PIN    GPIO_NUM_25
 
-#define SD_SPI_SCK_PIN     GPIO_NUM_22
-#define SD_SPI_MOSI_PIN    GPIO_NUM_21
-#define SD_SPI_MISO_PIN    GPIO_NUM_34
-#define SD_CARD_CS_PIN     GPIO_NUM_33
+#define SD_SPI_SCK_PIN     GPIO_NUM_18
+#define SD_SPI_MOSI_PIN    GPIO_NUM_23
+#define SD_SPI_MISO_PIN    GPIO_NUM_19
+#define SD_CARD_CS_PIN     GPIO_NUM_5
 
-#define SPINDLE_DIR_PIN		GPIO_NUM_18
+#define SPINDLE_DIR_PIN		GPIO_NUM_21
 
 #define CONTROL_RESET_PIN         GPIO_NUM_2
-#define CONTROL_FEED_HOLD_PIN     GPIO_NUM_4
 
 // defaults
 #define DEFAULT_STEP_PULSE_MICROSECONDS 10
