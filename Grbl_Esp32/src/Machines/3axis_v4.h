@@ -40,6 +40,13 @@
 #define Z_LIMIT_PIN             GPIO_NUM_16
 
 
+#define PROBE_PIN       		GPIO_NUM_32
+
+#define SD_SPI_SCK_PIN     GPIO_NUM_18
+#define SD_SPI_MOSI_PIN    GPIO_NUM_23
+#define SD_SPI_MISO_PIN    GPIO_NUM_19
+#define SD_CARD_CS_PIN     GPIO_NUM_5
+
 // OK to comment out to use pin for other features
 #define STEPPERS_DISABLE_PIN    GPIO_NUM_13
 
